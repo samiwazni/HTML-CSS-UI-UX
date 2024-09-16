@@ -11,26 +11,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />  
-  
     <title>SILJA</title>
 </head>
-
-<header class="header">
-    <div class="holder">
-        <img class="logo_img" src="Images/Logo.png" href="HOME.html">
-        <ul class="main-nav">
-            <li><a href="#"> Home </a></li>
-            <li><a href="SERVICES.html"> Services </a></li>
-            <li><a href="PRODUCT.html"> Products </a></li>
-            <li><a href="ABOUTUS.html"> About Us </a></li>
-            <li><a href="FEEFBACK.html"> Feedback  </a></li>
-            <li><a href="CONTACTUS.html"> Contact us </a></li>
-            <a class="twitter" href="https://twitter.com/?lang=fi" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-        </ul>         
-    </div>
-</header> 
 <body>
+    <header class="header">
+        <div class="holder">
+            <img class="logo_img" src="Images/Logo.png" alt="HOME">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="SERVICES.html">Services</a></li>
+                    <li><a href="PRODUCT.html">Products</a></li>
+                    <li><a href="ABOUTUS.html">About Us</a></li>
+                    <li><a href="FEEDBACK.html">Feedback</a></li>
+                    <li><a href="CONTACTUS.html">Contact Us</a></li>
+                </ul>
+            </nav>         
+        </div>
+    </header>
     <div class="header_img">
         <div class="info">
             <h4>MODERN BEAUTY</h4>
@@ -121,9 +123,9 @@
                     <input type="number" required><br><br>
                     <label for="">Email</label><br>
                     <input type="email" required><br><br>
-                    <label for="date">Choose a date</label>
+                    <label for="date">Choose date</label>
                     <input type="date"><br><br>
-                    <label for="time">Choose a time</label>
+                    <label for="time">Choose time</label>
                     <input type="time"><br><br>
                     <label for="">Any hopes</label><br>
                     <textarea name="" id="" cols="30" rows="10"></textarea><br>
@@ -249,4 +251,5 @@
         </div>
       </footer>
 </body>
+<script src="/js/script.js"></script>
 </html>
