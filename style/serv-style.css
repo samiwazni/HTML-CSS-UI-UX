@@ -1,0 +1,19 @@
+.serv_container {
+    background-color: var(--dark-white);
+}
+
+.serv_holder {
+    background-color: var(--white);
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.serv_holder h2, p {
+    text-align: left;
+    padding: 20px 150px 20px 50px;
+}
+
+.serv {
+    background: var(--silja);
+}

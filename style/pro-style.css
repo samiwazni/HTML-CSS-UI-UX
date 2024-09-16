@@ -1,0 +1,119 @@
+.pro_container {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    box-sizing: border-box;
+    height: 45vh;
+}
+
+.pro_holder {
+    width: 1400px;
+    margin: auto;
+}
+
+.pro_text {
+    width: 800px;
+    padding-left: 200px;
+    padding-top: 80px;
+    text-align: left;
+}
+
+.pro_text p {
+    text-align: left;
+}
+
+.card.radius .scroll-down .scroll-down__btn {
+    position: absolute;
+    transform: translateX(-50%);
+    display: inline-block;
+    padding: 15px 60px;
+    border: none;
+    cursor: pointer;
+}
+
+.card.radius .scroll-down .scroll-down__btn svg {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    animation: animateBtnArrow 1s infinite linear;
+}
+    @keyframes animateBtnArrow {
+    0%, 100% {
+    transform: translateY(5px);
+}
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 5px;
+    box-shadow: 0 20px 30px var(--box-shadow);
+    line-height: 0;
+}
+
+.pro_container {
+    margin-top: -50px;
+}
+
+.pro_container > h2 {
+    background: var(--dark-red);
+    color: var(--white);
+    margin-top: -215px;
+    padding: 4px 15px;
+    font-size: 1em;
+    border: none;
+    margin-left: 200px;
+}
+
+.box > img {
+    width: 100%;
+    height: calc(80% - 5vh);
+    object-fit: cover; 
+    transition: .6s;
+}
+
+.box > span {
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+    line-height: 2.6em;
+}
+
+.box:hover { flex: 1 1 25%; }
+.box:hover > img {
+    width: 100%;
+    height: 100%;
+}
+
+.pro2_container {
+    background-color: var(--dark-white);
+}
+
+.pro2_holder {
+    display: flex;
+    width: 1500px;
+    margin: auto;
+}
+
+.pro2_holder img{
+    width: 740px;
+}
+
+.pro2_text {
+    background: var(--white);
+    margin: 60px;
+    padding: 40px 100px;
+    border-radius: 5px;
+}
+
+.pro2_text p {
+  text-align: left;
+}
+
+.pro-bnt {
+    margin-left: 50em;
+}

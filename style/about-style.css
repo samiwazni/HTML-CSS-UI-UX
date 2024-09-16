@@ -1,0 +1,80 @@
+.about_us_container {
+    background-color: var(--dark-white);
+}
+
+.about_us_holder {
+    background-color: var(--white);
+    width: 1200px;
+    margin: 6px auto;
+    padding: 20px;
+    box-shadow: var(--box-shadow) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.about_us_holder p {
+    text-align: left;
+}
+
+.SILJA{
+   display: flex;
+}
+
+.SILJA_text {
+    background-color: var(--silja);
+    padding: 100px 100px 10px 50px;
+    margin: 20px -10px 20px 10px;
+}
+
+.SILJA img {
+    width: 420px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.HEIDI{
+    display: flex;
+ }
+
+.HEIDI_text {
+    background-color: var(--silja);
+    padding: 100px 100px 10px 50px;
+    margin: 20px 10px 20px -2px;
+}
+
+.HEIDI img {
+    width: 420px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.ANNA{
+    display: flex;
+}
+
+.ANNA_text {
+    background-color: var(--silja);
+    padding: 100px 100px 10px 50px;
+    margin: 20px -10px 20px 10px;
+}
+
+.ANNA img {
+    width: 420px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.MATHILDA{
+    display: flex;
+}
+
+.MATHILDA_text {
+    background-color: var(--silja);
+    padding: 100px 100px 10px 50px;
+    margin: 20px 10px 20px -2px;
+}
+
+.MATHILDA img {
+    width: 420px;
+    height: 600px;
+    border-radius: 5px;
+}

@@ -1,0 +1,52 @@
+.form_containar {
+    background-color: var(--dark-white);
+	padding: 20px;
+}
+
+.form_holder {
+    background-color: var(--white);
+    width: 1400px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: var(--box-shadow) 0px 7px 29px 0px;
+    border-radius: 10px;
+	text-align: left;
+}
+
+.form_holder p{
+	text-align: left;
+}
+
+.form_feedback {
+    width: 720px;
+    margin: auto;
+    color: #8f8f8f;
+}
+
+.form_feedback input{
+    padding: 5px 10px;
+	border-radius: 5px;
+ 	border: 1px solid var(--box-shadow);
+	width: 700px;
+	font-size: 18px;
+	color: var(--less-bule);
+}
+
+.form_feedback textarea {
+    padding: 10px 10px;
+	border-radius: 5px;
+ 	border: 1px solid var(--box-shadow);
+	width: 700px;
+	font-size: 18px;
+	color: var(--less-bule);
+}
+
+
+.form_feedback select{
+    padding: 10px 10px;
+	border-radius: 5px;
+ 	border: 1px solid var(--box-shadow);
+	width: 720px;
+	font-size: 18px;
+	color: var(--less-bule);
+}
