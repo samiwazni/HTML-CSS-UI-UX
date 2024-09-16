@@ -166,7 +166,7 @@ a {
     -webkit-transform: translateZ(0); backface-visibility: hidden;
   scale(1.0, 1.0);
     transform: translateZ(0);
-  background:var(--dark-red) url(https://www.centralpaku.fi/wp-content/uploads/2022/10/image-1-scaled.jpg) 50% 0 no-repeat;
+  background:var(--dark-red) url('/Images/image-1.jpg') 50% 0 no-repeat;
   background-size:100%;
   background-attachment:fixed;
   animation: grow 360s  linear 10ms infinite;
