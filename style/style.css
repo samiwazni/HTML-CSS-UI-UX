@@ -505,9 +505,10 @@ footer img {
 }
 
 .copy-right-icon {
+    display: flex;
     margin: auto;
     padding-right: 18em;
-
+    gap: 10px;
 }
 
 @media screen and (min-width: 24.375em) {
